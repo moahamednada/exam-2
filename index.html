@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>JavaScript Exam</title>
+</head>
+
+<body>
+    <div class="sideBar">
+     <div class="blackBar">
+        <ul>
+            <li target = "now_playing" class="pointer targets">Now Playing</li>
+            <li target = "popular" class="pointer targets">Popular</li>
+            <li target = "top_rated" class="pointer targets">Top Rated</li>
+            <li target = "trending" class="pointer targetTrending">Trending</li>
+            <li target = "upcoming" class="pointer targets">Upcomig</li>
+            <li class="pointer"><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="blackBarIcons">
+            <i class="fa-solid fa-globe pointer"></i> 
+            <i class="fa-brands fa-facebook-f pointer"></i> 
+            <i class="fa-brands fa-twitter pointer"></i> 
+        </div>
+        <p>Copyright Â© 2019 All Rights Reserved.</p>
+     </div>
+     <div class="whiteBar">
+        <div class="shape">
+        </div>
+        <div>
+            <i class="fa-solid fa-bars pointer"></i>
+            <i class="fa-solid fa-xmark pointer"></i>
+
+        </div>
+        <div>
+            <i class="fa-solid fa-globe pointer"></i>
+            <br>
+            <br>
+            <i class="fa-solid fa-share-nodes pointer"></i>
+        </div>
+     </div>
+    </div>
+    <div class="container">
+        <div class="firstInputs">
+            <input type="text" placeholder="enter your name movie by word...">
+            <input type="text" placeholder="search...">
+        </div>
+
+        <div id="movies" class="movies">
+          
+            </div>
+
+            <div id="contact" class="contact">
+                <h1>ContactUs...</h1>
+                <div class="contactInputs">
+                   <div class="name"> <input type="text" placeholder="Enter Your Name...">
+                    <div class="alert">invalid name: your name must contain 
+                        characters and numbers only. minimum length: 5 characters
+                    </div> </div>
+                   <div class="email"> <input type="text" placeholder="Enter Your Email...">
+                    <div class="alert">invalid E-mail: your E-mail must be in the form "example@anyserver.com"</div> </div>
+                   <div class="phone"> <input type="text" placeholder="Enter Your Phone...">
+                    <div class="alert">invalid Phone Number: your number must contain number only. minimum length: 10 numbers</div> </div>
+                   <div class="age"> <input type="text" placeholder="Enter Your Age...">
+                    <div class="alert">invalid age: your age must contain numbers only</div> </div>
+                   <div class="password"> <input type="text" placeholder="Enter Your Password...">
+                    <div class="alert">invalid password: your password must contain one uppercase letter and one number at least.
+                        minimum length: 8 characters
+                    </div> </div>
+                   <div class="repassword"> <input type="text" placeholder="Re-Enter Your Password...">
+                    <div class="alert">invalid password: you must type here the password you entered before</div> </div>
+
+                </div>
+                <button class="submitButton">Submit</button>
+
+            </div>
+
+        </div>
+
+
+
+        <script src="JS/jquery-3.6.0.min.js"></script>
+        <script src="JS/index.js" type="module"></script>
+</body>
+
+</html>
